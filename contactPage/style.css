@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(217, 190, 243);
+}
+
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 10px;
+    padding: 50px;
+    height: 100%;
+    
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.header1 > h1 {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fieldset {
+    padding: 20px;
+    margin: 0 0 10px;
+}
+
+#contactinfo {
+    background:#dfdddd;
+	padding:20px;
+	margin: 10px;
+    height: 100%;
+}
+
+#contactinfo input {
+    margin-bottom: 20px;
+    
+}

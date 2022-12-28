@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- create a contact page with the form fields - Name, Email, Message, Priority (dropdown) 
+NB: Your form should have a submit button and HTML validations -->
+    
+
+<div class="header1">
+    <h1>Contact Us</h1>
+</div>
+<div class="container">
+        
+            <form action="" id="contactinfo">
+                <fieldset>
+                <label for="name">Name: <input type="text" required> </label> <br>
+                </fieldset>
+                <fieldset>
+                <label for="email">Email: <input type="text" required> </label>
+                </fieldset>
+                <fieldset>
+                <legend>Message: </legend>
+                <textarea name="message" id="message" cols="30" rows="10" title="Message" ></textarea> <br>
+                </fieldset>
+                
+                <label for="priority">Priority:   </label>
+                <select name="priority" id="priority">
+                    <option value="none"></option>
+                    <option value="moderate">Moderate</option>
+                    <option value="urgent">Urgent</option>
+                    <option value="critical">Critical</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        
+    </div>
+</body>
+</html>
